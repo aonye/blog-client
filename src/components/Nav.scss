@@ -1,0 +1,66 @@
+.nav {
+	width: 100%;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	top: 0%;
+	border-bottom: 1px solid gray;
+
+	&__wrapper {
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.btns {
+	width: 300px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 7px;
+	padding: 7px;
+
+	&__signup-wrapper {
+		width: 100%;
+		margin-right: 7px;
+	}
+
+	&__signup {
+		width: 100%;
+		height: 55px;
+		border: none;
+		border-radius: 5px;
+		background-color: #e9ecf0;
+		font-size: 17px;
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+	&__signup:hover {
+		background-color: #e9ecf0d1;
+	}
+
+	&__login {
+		width: 100%;
+		height: 55px;
+		border: none;
+		border-radius: 5px;
+		font-size: 17px;
+		font-weight: 600;
+		color: #fff;
+		background-color: #1859c9;
+		cursor: pointer;
+	}
+
+	&__login:hover {
+		background-color: #1859c9db;
+	}
+}
+
+.ratio1H4W {
+	height: 60px;
+	width: 240px;
+}

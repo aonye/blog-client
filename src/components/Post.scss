@@ -1,0 +1,76 @@
+.deleteLink {
+    color: #1859C9;
+    text-decoration: underline;
+}
+
+.post {
+    position: relative;
+    min-height: 100px;
+    width: 600px;
+    background-color: #E9ECF0;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 2% 2% 0.1% 0.1%;
+
+    &__info {
+        margin: 0px 10px 0px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        max-width: 100%;
+        
+        .testwrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        &__wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            max-width: 150px;
+            width: 80%;
+
+            .flex-col span {
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+
+        &__title {
+            margin-left: 10px;
+        }
+
+        // &__operator-wrapper {
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: space-evenly;
+        //     height: 100%;
+        // }
+    }
+
+    p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    &__comment {
+        height: 40px;
+        width: 100%;
+
+        .btn {
+            height: 40px;
+            width: 100%;
+            font-size: 18px;
+        }
+
+        .input {
+            height: 40px;
+            width: 98.5%;
+            outline: none;
+            font-size: 18px;
+        }
+    }
+}

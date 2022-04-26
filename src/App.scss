@@ -1,0 +1,71 @@
+// Global styles
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.App {
+}
+
+.hoverable {
+	cursor: pointer;
+}
+
+.nav-box {
+	display: block;
+	min-height: 80px;
+	height: 100px;
+	border-bottom: 1px solid black;
+}
+
+.spin {
+	/* rotates CW */
+	-webkit-animation: spin 0.3s linear;
+	-moz-animation: spin 0.3s linear;
+	animation: spin 0.3s linear;
+	transform-origin: center;
+}
+@-moz-keyframes spin {
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.backSpin {
+	/* rotates CCW*/
+	-webkit-animation: backspin 0.3s linear;
+	-moz-animation: backspin 0.3s linear;
+	animation: backspin 0.3s linear;
+	transform-origin: center;
+}
+@-moz-keyframes backspin {
+	100% {
+		-moz-transform: rotate(-360deg);
+	}
+}
+@-webkit-keyframes backspin {
+	100% {
+		-webkit-transform: rotate(-360deg);
+	}
+}
+@keyframes backspin {
+	100% {
+		-webkit-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	}
+}

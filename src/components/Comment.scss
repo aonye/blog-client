@@ -1,0 +1,47 @@
+.comment {
+	margin: 10px 0px 10px 0px;
+	background-color: #0084FF;
+	&__info {
+		text-overflow: ellipsis;
+		height: 50px;
+
+		.wrapper {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 100%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+
+			.comment-operator {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding-right: 5px;
+
+				.link {
+					color: black;
+					text-decoration: underline;
+				}
+			}
+
+			.image-wrapper {
+				display: flex;
+				flex-direction: row;
+			}
+
+			.test-wrapper {
+				display: flex;
+			}
+
+			span {
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+		}
+	}
+
+	p {
+		padding-bottom: 10px;
+	}
+}
